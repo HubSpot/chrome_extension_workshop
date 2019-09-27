@@ -1,0 +1,52 @@
+{
+  "manifest_version": 2,
+  "version": "0.1",
+  "name": "HubSpot theme",
+  "theme": {
+    "images": {
+      "theme_ntp_background": "background.png"
+    },
+    "colors": {
+      "frame": [
+        250,
+        185,
+        169
+      ],
+      "toolbar": [
+        106,
+        117,
+        184
+      ],
+      "ntp_text": [
+        106,
+        117,
+        184
+      ],
+      "ntp_link": [
+        106,
+        117,
+        184
+      ],
+      "ntp_section": [
+        106,
+        117,
+        184
+      ],
+      "button_background": [
+        106,
+        117,
+        184
+      ]
+    },
+    "tints": {
+      "buttons": [
+        0.33,
+        0.5,
+        0.47
+      ]
+    },
+    "properties": {
+      "ntp_background_alignment": "bottom"
+    }
+  }
+}
