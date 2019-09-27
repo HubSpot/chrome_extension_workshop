@@ -1,0 +1,19 @@
+{
+  "name": "Screenshot",
+  "version": "1.0",
+  "description": "Take a screenshot of current tab and open in a new tab with a Download button",
+  "background": {
+    "persistent": false,
+    "scripts": [
+      "background_three.js"
+    ]
+  },
+  "browser_action": {
+    "default_icon": "camera.png",
+    "default_title": "Say cheese!"
+  },
+  "permissions": [
+    "activeTab"
+  ],
+  "manifest_version": 2
+}

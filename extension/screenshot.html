@@ -1,0 +1,48 @@
+<html>
+  <!-- Set the image url to the screenshot url -->
+  <script src="screenshot.js"></script>
+
+  <body>
+    <!-- "Download" button -->
+    <a id="downloadLink" download="My Download">Download</a>
+    <!-- Screenshot -->
+    <img id="screenshot" alt="screenshot" />
+  </body>
+
+  <!-- Page, image, and button styles -->
+  <style>
+    body {
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      background-color: #e5f5f8;
+    }
+
+    #downloadLink {
+      background-color: #00a4bd;
+      border-radius: 5px;
+      color: white;
+      cursor: pointer;
+      font-family: "Verdana", "Avenir", "Helvetica Neue", sans-serif;
+      font-size: 21px;
+      margin-bottom: 21px;
+      padding: 15px 24px;
+      text-decoration: none;
+    }
+
+    #downloadLink:hover {
+      background-color: #7fd1d3;
+    }
+
+    #downloadLink:active {
+      background-color: #0091ae;
+    }
+
+    #screenshot {
+      height: 75vh;
+      width: 75vw;
+      box-shadow: 0 1px 5px 0 rgba(45, 62, 80, 0.12);
+    }
+  </style>
+</html>
