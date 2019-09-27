@@ -5,7 +5,7 @@
   "background": {
     "persistent": false,
     "scripts": [
-      "background_three.js"
+      "background_one.js"
     ]
   },
   "browser_action": {
