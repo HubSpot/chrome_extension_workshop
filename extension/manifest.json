@@ -2,7 +2,7 @@
   "name": "Screenshot",
   "version": "1.0",
   "manifest_version": 2,
-  "description": "Take a screenshot of current tab and open in a new tab with a Download button",
+  "description": "Take and download a screenshot of the current tab",
   "background": {
     "persistent": false,
     "scripts": [
@@ -14,6 +14,7 @@
     "default_title": "Say cheese!"
   },
   "permissions": [
-    "activeTab"
+    "activeTab",
+    "downloads"
   ]
 }
