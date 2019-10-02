@@ -1,3 +1,5 @@
-chrome.browserAction.onClicked.addListener(function() {
+function logHelloWorld() {
   console.log("Hello world");
-});
+}
+
+chrome.browserAction.onClicked.addListener(logHelloWorld);
