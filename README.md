@@ -1,2 +1,3 @@
-# chrome_extension_workshop
-Chrome extension workshop
+# Chrome Extension Workshop
+
+[View workshop slides](./presentation/Hubspot_Chrome_Extension.pdf)
